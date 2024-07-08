@@ -20,7 +20,6 @@ local Book = function(cover_title, cover_material, number_of_pages)
   local pages = {}
   
   for i = 1, number_of_pages do
-    
     pages[i] = Page("~~" .. string.char(math.random(26) + 64) .. "~~", i)
   end
   
