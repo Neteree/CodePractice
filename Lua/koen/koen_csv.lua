@@ -1,5 +1,7 @@
 M = {}
 
+-- This function was just ment to be a proof of concept, so no
+-- checks/data validation was done
 function M.to_word_pairs()
   local word_pairs = {}
 
