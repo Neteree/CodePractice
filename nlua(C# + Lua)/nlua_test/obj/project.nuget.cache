@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4mLuj5iLkQmYVZTASi3ibNM7XqPfYDw1YLs0BmN/kwFnFg2t40ICn4JOs9GeZ9UYaloYDUmdZ34rs+gQSZvv4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dogem\\Desktop\\my_stuff\\nlua_test\\nlua_test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dogem\\.nuget\\packages\\keralua\\1.4.1\\keralua.1.4.1.nupkg.sha512",
+    "C:\\Users\\dogem\\.nuget\\packages\\nlua\\1.7.3\\nlua.1.7.3.nupkg.sha512"
+  ],
+  "logs": []
+}
