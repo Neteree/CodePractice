@@ -1,14 +1,14 @@
 using System;
 
 public class ListNode {
- 		public int val;
-		public ListNode next;
+	public int val;
+	public ListNode next;
  		
-		public ListNode(int val=0, ListNode next=null) {
- 			this.val = val;
- 			this.next = next;
- 		}
- 	}
+	public ListNode(int val = 0, ListNode next=null) {
+		this.val = val;
+		this.next = next;
+	}
+ }
 
 class Program
 {	
@@ -36,20 +36,20 @@ class Program
         return mergedListHeadNode.next;
     }
 	
-    static void Main()
-    {
-  		ListNode ListA = new ListNode(1, new ListNode(2, new ListNode(4)));
-  		ListNode ListB = new ListNode(1, new ListNode(3, new ListNode(4)));	
-  		ListNode currentMergedABListNode = MergeTwoLists(ListA, ListB);
+static void Main()
+{
+	ListNode ListA = new ListNode(1, new ListNode(2, new ListNode(4)));
+	ListNode ListB = new ListNode(1, new ListNode(3, new ListNode(4)));	
+	ListNode currentMergedABListNode = MergeTwoLists(ListA, ListB);
+	
+	Console.Write("Output: [ ");
+	
+	while(currentMergedABListNode != null)
+	{
+		Console.Write($"{currentMergedABListNode.val} ");
+		currentMergedABListNode = currentMergedABListNode.next;
+	}
   		
-  		Console.Write("Output: [ ");
-  		
-  		while(currentMergedABListNode != null)
-  		{
-  			Console.Write($"{currentMergedABListNode.val} ");
-  			currentMergedABListNode = currentMergedABListNode.next;
-  		}
-  		
-  		Console.WriteLine("]");
+  	Console.WriteLine("]");
     }
 }
